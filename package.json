@@ -1,0 +1,12 @@
+{
+  "name": "random-element-generator",
+  "version": "1.0.0",
+  "description": "Generate a random message generator for Elements. Basic Idea: \"You're ${element} today.  Here's a cool fact about ${element}.  {insert fun fact about element}. Using Javascript.",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}

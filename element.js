@@ -5,6 +5,18 @@ const element = ["Hydrogen", "Helium", "Lithium", "Beryllium", "Boron",
 "Scandium", "Titanium", "Vanadium", "Chromium", "Manganese"]
 
 //generate a random number to pull from the element array
-const randomNumberGenerator = Math.floor(Math.random()* 25);
+const pickRandomElement = () => {
+    //generates a random number to pull from the element array
+    const randomNumberGenerator = Math.floor(Math.random()* 25);
+    return element[randomNumberGenerator];
+};
 
-export default element;
+const selectedElement = pickRandomElement()
+console.log(selectedElement)
+
+//tests if the pickRandomElement function randomly pulls an element from the element array
+//console.log(pickRandomElement())
+
+//add an export at some point
+
+export default selectedElement;
