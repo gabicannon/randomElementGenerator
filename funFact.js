@@ -41,6 +41,6 @@ const getFunFact = () => {
   const element = selectedElement  
   return funFact[element] 
 };
-console.log(getFunFact())
+//console.log(getFunFact())
   
-//export default funFact;
+export default getFunFact;
