@@ -12,11 +12,9 @@ const pickRandomElement = () => {
 };
 
 const selectedElement = pickRandomElement()
-console.log(selectedElement)
+//console.log(selectedElement)
 
 //tests if the pickRandomElement function randomly pulls an element from the element array
 //console.log(pickRandomElement())
-
-//add an export at some point
 
 export default selectedElement;

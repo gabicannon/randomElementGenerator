@@ -37,6 +37,10 @@ const funFact = {
 
 //this tests to make sure when a key is called, it returns the proper value from the array.  
 //console.log(funFact.Nitrogen)
-console.log(funFact(selectedElement))
+const getFunFact = () => {
+  const element = selectedElement  
+  return funFact[element] 
+};
+console.log(getFunFact())
   
 //export default funFact;
